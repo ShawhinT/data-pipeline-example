@@ -3,7 +3,7 @@ name: data-pipeline-workflow
 on:
   push: # run on push
   schedule:
-    - cron: "35 */12 * * *" # run every 12 hours at 35 min mark
+    - cron: "35 * * * *" # run every day at 12:35AM
   workflow_dispatch:  # manual triggers
 
 jobs:
