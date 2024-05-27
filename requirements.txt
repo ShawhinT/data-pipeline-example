@@ -1,0 +1,4 @@
+polars==0.20.21
+youtube_transcript_api==0.6.2
+sentence-transformers==2.6.1
+requests==2.31.0
